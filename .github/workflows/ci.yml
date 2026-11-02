@@ -1,0 +1,14 @@
+name: My First CI
+
+on: push
+
+jobs:
+	hello:
+		runs-on: ubuntu-latest
+
+		steps: 
+		  - name: Multiple Commands
+			run: |
+				echo "First command"
+				echo "Second command"
+				echo "Third command"
